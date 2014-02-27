@@ -112,7 +112,7 @@ if [ -f /home/db2v95/sqllib/db2profile ]; then
 fi
 
 # PYTHON env
-export PYTHONSTARTUP='~/.pystartup'
+export PYTHONSTARTUP=${HOME}"/.pystartup"
 
 # Personal stuff
 export PATH=$PATH:~/bin
