@@ -1,0 +1,17 @@
+[user]
+	name = fullname
+	email = youremail@mail.com
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
+[color]
+	ui = true
+[alias]
+	lol = log --oneline --abbrev-commit --all --graph --decorate --color
+	br = branch
+	co = checkout
+	st = status
+	cm = commit
+[mergetool]
+	prompt = false
