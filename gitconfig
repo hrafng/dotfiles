@@ -9,9 +9,12 @@
 	ui = true
 [alias]
 	lol = log --oneline --abbrev-commit --all --graph --decorate --color
+	lof = log --pretty=format:'[%h] %ae, %ar: %s' --stat
 	br = branch
 	co = checkout
 	st = status
 	cm = commit
 [mergetool]
 	prompt = false
+[diff]
+	tool = vimdiff
