@@ -9,8 +9,6 @@ set smarttab
 set nobackup
 set nowritebackup
 set noswapfile
-set lines=40
-set columns=80
 set softtabstop=4
 set autoindent
 filetype indent on
