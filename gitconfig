@@ -18,4 +18,4 @@
 [diff]
 	tool = vimdiff
 [push]
-	default = simple
+	default = matching
