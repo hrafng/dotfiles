@@ -1,5 +1,6 @@
 [user]
-	name = Hrafn Gudmundsson
+	name = John Johnson
+	email = john@john.com
 [core]
 	editor = vim
 [merge]

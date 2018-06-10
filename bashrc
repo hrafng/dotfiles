@@ -119,3 +119,7 @@ export PATH=$PATH:~/bin
 export EDITOR=vi
 stty -ixon # To enable ctrl-s to step forward in history
 export GIT_EDITOR=vim
+
+
+export GDL_STARTUP=~/gdlstartup.pro
+
