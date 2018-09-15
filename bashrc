@@ -106,11 +106,6 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-# DB2 client setup
-if [ -f /home/db2v95/sqllib/db2profile ]; then
-    . /home/db2v95/sqllib/db2profile
-fi
-
 # PYTHON env
 export PYTHONSTARTUP=${HOME}"/.pystartup"
 
