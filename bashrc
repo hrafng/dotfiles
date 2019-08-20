@@ -118,3 +118,5 @@ export GIT_EDITOR=vim
 
 export GDL_STARTUP=~/gdlstartup.pro
 
+source ~/.bashrc.2 # Source additional system specific stuff
+
