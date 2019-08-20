@@ -1,10 +1,6 @@
 # Add to python path
 
-print 'Python Startup file loaded'
 import os
-
-# Change working directory
-os.chdir(os.path.expanduser("~"))
 
 # Add auto-completion and a stored history file of commands to your Python
 # interactive interpreter. Requires Python 2.0+, readline. Autocomplete is
